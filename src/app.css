@@ -12,16 +12,6 @@ body {
   overflow: hidden;
 }
 
-h1,
-h2 {
-  font-size: 200%;
-}
-
-p {
-  line-height: 1.32;
-  margin: 10px 0 10px 0;
-}
-
 a {
   color: #b94669;
   text-decoration: none;
@@ -29,15 +19,6 @@ a {
 
 a:visited {
   color: #b94669;
-}
-
-a:hover {
-  color: #d36083;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #a02d50;
 }
 
 input {
