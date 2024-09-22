@@ -2,14 +2,14 @@
   import QRModal from "./components/QRModal.svelte";
   import BarcodeModal from "./components/BarcodeModal.svelte";
 
+  const WELCOME_MSG = "*hello!";
+
   let inputText = "*hello!";
   let inputRef;
   $: text = inputText || " ";
   $: charboxFontSize = Math.min(150 / text.length, 30);
 
-  const WELCOME_MSG = "*hello!";
-
-  // adds default message to URL by default
+  // adds default message to URL
   updateFragment();
 
   $: allSplit = inputText.length > 0 ? inputText.split(/.*?/u) : [" "];
@@ -57,14 +57,12 @@
   }
 
   // Runs only once to clear the input when the user types
-  // the first character just after the welcome message
+  // the first character after the welcome message
   function onKeyDown() {
-    console.log("running ONCE");
     if (inputText.indexOf(WELCOME_MSG) !== -1) {
       inputText = "";
     }
   }
-
 </script>
 
 <main>
@@ -88,7 +86,9 @@
       />
 
       <span class="button-row">
-        <a href="" on:click|preventDefault={() => updateText("+49 150 0000 0000")}
+        <a
+          href=""
+          on:click|preventDefault={() => updateText("+49 150 0000 0000")}
           >Phone</a
         >
         <a href="" on:click|preventDefault={() => updateText("Your Name Here")}
@@ -148,7 +148,7 @@
 
     <span class="about">
       View code on <a
-        href="https://github.com/lily-gh/large-type-svelte-public"
+        href="https://github.com/lily-gh/large-type-svelte"
         target="_blank">GitHub</a
       >
     </span>
