@@ -4,7 +4,7 @@
 
   const WELCOME_MSG = "*hello!";
 
-  let inputText = "*hello!";
+  let inputText = WELCOME_MSG;
   let inputRef;
   $: text = inputText || " ";
   $: charboxFontSize = Math.min(150 / text.length, 30);
