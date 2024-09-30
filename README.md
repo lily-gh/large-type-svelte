@@ -79,7 +79,6 @@ If you find this _Progressive Web App_ useful and want to support my work, consi
 </div>
 
 <br />
-<br />
 
 ---
 
