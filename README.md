@@ -67,7 +67,20 @@ npm run dev
 Then open http://localhost:5173/ to preview.
 
 
-## Meta
-If you think this was helpful, consider [supporting me on Ko-fi](https://ko-fi.com/lily_neinhorn) 🩷
+## 💖 Support the project
+If you find this _Progressive Web App_ useful and want to support my work, consider [supporting me on Ko-fi](https://ko-fi.com/lily_neinhorn). Your support enables me to continue creating helpful tools for the community! 💖
 
-Initially forked from [https://github.com/dbader/large-type.com](https://github.com/dbader/large-type.com).
+<br />
+
+<div align="center">
+    <a href="https://ko-fi.com/lily_neinhorn" target="_blank">
+        <img src="https://raw.githubusercontent.com/lily-gh/lily-gh/refs/heads/main/img/kofi_button_red_nobg.png" alt="Support me on Ko-fi" width="400">
+    </a>
+</div>
+
+<br />
+<br />
+
+---
+
+This project was initially forked from [https://github.com/dbader/large-type.com](https://github.com/dbader/large-type.com).
